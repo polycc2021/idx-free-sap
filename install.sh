@@ -18,8 +18,8 @@ export ARGO_DOMAIN="bassap.gotogo.dpdns.org"           # Argo 域名，留空即
 export ARGO_AUTH="eyJhIjoiM2I3Yzc2ODYzYmE3ZWQxMmZlM2EzZmRjNTlkYWFkN2EiLCJ0IjoiN2M4M2I3NTAtYmUzNy00ZDAzLTkwOGUtNWM4MDk1MjVlZjgwIiwicyI6Ik1HRmtNR0V3TnpJdFpEVmtaUzAwWWpjNUxXSmxPVGN0T0daa1pEZzVNbUV6T0RkaCJ9"             # Argo Token 或 json，留空即启用临时隧道
 
 # --- 其他配置 ---
-export NAME="idx"               # 节点名称
-export CFIP="www.visa.com.tw" # 优选 IP 或优选域名
+export NAME="basap"               # 节点名称
+export CFIP="saas.sin.fan" # 优选 IP 或优选域名
 export CFPORT=443               # 优选 IP 或优选域名对应端口
 export CHAT_ID=""               # Telegram Chat ID
 export BOT_TOKEN=""             # Telegram Bot Token。需要同时填写 Chat ID 才会推送节点到 Telegram
